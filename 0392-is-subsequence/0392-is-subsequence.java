@@ -2,7 +2,7 @@ class Solution {
     public boolean isSubsequence(String s, String t) {
         int l=s.length()-1;
         int j=0;
-        if(s.equals(""))
+        if("".equals(s))
             return true;
         for(int i=0;i<t.length();i++)
         {
